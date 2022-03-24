@@ -1,0 +1,19 @@
+.texts h1 {
+  color: #ff4043;
+  font-size: 34px;
+  font-family: Arial;
+}
+.texts p {
+  color: blue;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+.buttons button {
+  color: white;
+  background-color: black;
+  width: 100px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

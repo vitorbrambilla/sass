@@ -1,0 +1,28 @@
+@mixin text-style($color, $font-size, $font-family) {
+  color: $color;
+  font-size: $font-size;
+  font-family: $font-family;
+}
+
+@mixin button-style($btn-color, $btn-bgcolor, $btn-width, $btn-height) {
+  color: $btn-color;
+  background-color: $btn-bgcolor;
+  width: $btn-width;
+  height: $btn-height;
+}
+
+.texts {
+  h1 {
+    @include text-style(#ff4043, 34px, Arial);
+  }
+
+  p {
+    @include text-style(blue, 22px, sans-serif);
+  }
+}
+
+.buttons {
+  button {
+    @include button-style(white, black, 100px, 40px);
+  }
+}
